@@ -5,6 +5,8 @@ VisualStudioVersion = 17.11.35219.272
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Acess Modifiers Demo", "Acess Modifiers Demo\Acess Modifiers Demo.csproj", "{087926EC-DA10-4824-A750-391C446CA432}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnotherAssembly", "AnotherAssembly\AnotherAssembly.csproj", "{2DBF61E1-EC9F-4780-A250-DB46B08F66E6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{087926EC-DA10-4824-A750-391C446CA432}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{087926EC-DA10-4824-A750-391C446CA432}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{087926EC-DA10-4824-A750-391C446CA432}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DBF61E1-EC9F-4780-A250-DB46B08F66E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DBF61E1-EC9F-4780-A250-DB46B08F66E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DBF61E1-EC9F-4780-A250-DB46B08F66E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DBF61E1-EC9F-4780-A250-DB46B08F66E6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -4,7 +4,7 @@ Este projeto foi criado para ajudar estudantes de programação a compreender os
 
 ## Como Usar
 
-Você pode testar o projeto usando o [[**.NET Fiddle**](https://www.bing.com/search?form=SKPBOT&q=.NET%20Fiddle)](link). O código fonte está disponível para você estudar e fazer seus próprios testes.
+Você pode testar o projeto usando o [[**.NET Fiddle**](https://dotnetfiddle.net/CpQYyq)](https://dotnetfiddle.net/CpQYyq). O código fonte está disponível para você estudar e fazer seus próprios testes.
 
 ## Estrutura do Projeto
 

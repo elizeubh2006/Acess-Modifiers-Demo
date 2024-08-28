@@ -15,6 +15,20 @@ Você pode testar o projeto usando o [[**.NET Fiddle**](https://dotnetfiddle.net
 •  [**SomeClass**](https://www.bing.com/search?form=SKPBOT&q=SomeClass): Classe independente que também tenta acessar os membros da classe `Parent`.
 
 
+## Modificadores de Acesso
+
+•  [**public**](https://www.bing.com/search?form=SKPBOT&q=public): Acessível de qualquer lugar.
+
+•  [**private**](https://www.bing.com/search?form=SKPBOT&q=private): Acessível apenas dentro da própria classe.
+
+•  [**protected**](https://www.bing.com/search?form=SKPBOT&q=protected): Acessível dentro da própria classe e por classes derivadas (independente do assembly).
+
+•  [**internal**](https://www.bing.com/search?form=SKPBOT&q=internal): Acessível dentro do mesmo assembly.
+
+•  [**protected internal**](https://www.bing.com/search?form=SKPBOT&q=protected%20internal): Acessível dentro do mesmo assembly e por classes derivadas em outro assembly.
+
+•  [**private protected**](https://www.bing.com/search?form=SKPBOT&q=private%20protected): Acessível apenas dentro da própria classe ou por classes derivadas no mesmo assembly.
+
 ## Imagem do Resultado
 
 ![alt text](https://github.com/elizeubh2006/Acess-Modifiers-Demo/blob/master/ResultadoAccessModifiersDemo.PNG?raw=true)

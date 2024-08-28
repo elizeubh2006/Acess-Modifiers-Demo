@@ -27,7 +27,7 @@ namespace AnotherAssembly
                 Console.WriteLine("I'm in the same assembly, but I'm not a derived class. I only can see private members using Reflection: " + valor);
 
                 FieldInfo campoPrivateProtected = tipo.GetField("Private_Protected_Member_In_Another_Assembly", BindingFlags.NonPublic | BindingFlags.Instance);
-                valor = (string)campoPrivate.GetValue(neighbor_parent);
+                valor = (string)campoPrivateProtected.GetValue(neighbor_parent);
                 Console.WriteLine("I'm in the same assembly, but I'm not a derived class. I olny can see private Protected members using Reflection: " + valor);
             }
             catch (Exception e)

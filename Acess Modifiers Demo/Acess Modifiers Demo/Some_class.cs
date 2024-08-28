@@ -31,15 +31,15 @@ namespace Acess_Modifiers_Demo
                 Console.WriteLine("I'm in a different assembly, and I'm not a derived class. I only can see private members using Reflection: " + valor);
 
                 FieldInfo campoPrivateProtected = tipo.GetField("Private_Protected_Member_In_Another_Assembly", BindingFlags.NonPublic | BindingFlags.Instance);
-                valor = (string)campoPrivate.GetValue(neighbor_parent);
+                valor = (string)campoPrivateProtected.GetValue(neighbor_parent);
                 Console.WriteLine("I'm in a different assembly, and I'm not a derived class. I olny can see private Protected members using Reflection: " + valor);
 
                 FieldInfo campoProtectedInternal = tipo.GetField("Protected_Internal_Member_In_Another_Assembly", BindingFlags.NonPublic | BindingFlags.Instance);
-                valor = (string)campoPrivate.GetValue(neighbor_parent);
+                valor = (string)campoProtectedInternal.GetValue(neighbor_parent);
                 Console.WriteLine("I'm in a different assembly, and I'm not a derived class. I olny can see Protected Internal members using Reflection: " + valor);
 
                 FieldInfo campoInternal = tipo.GetField("Internal_Member_In_Another_Assembly", BindingFlags.NonPublic | BindingFlags.Instance);
-                valor = (string)campoPrivate.GetValue(neighbor_parent);
+                valor = (string)campoInternal.GetValue(neighbor_parent);
                 Console.WriteLine("I'm in a different assembly, and I'm not a derived class. I olny can see Internal members using Reflection: " + valor);
 
 

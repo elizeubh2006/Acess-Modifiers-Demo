@@ -17,7 +17,7 @@ Você pode testar o projeto usando o [[**.NET Fiddle**](https://www.bing.com/sea
 
 ## Imagem do Resultado
 
-![Resultado](your-image.png)
+![Resultado](ResultadoAccessModifiersDemo.png)
 
 ## Sugestões de Melhorias
 

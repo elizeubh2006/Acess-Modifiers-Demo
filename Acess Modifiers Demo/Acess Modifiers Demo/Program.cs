@@ -1,5 +1,4 @@
 ﻿using AnotherAssembly;
-using System.Net.Http.Headers;
 
 namespace Acess_Modifiers_Demo
 {

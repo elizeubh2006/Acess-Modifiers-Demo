@@ -1,11 +1,9 @@
 ﻿using AnotherAssembly;
 using System;
-using System.Collections.Generic;
-using System.Linq;
+
 using System.Reflection;
-using System.Text;
-using System.Threading.Tasks;
-using AnotherAssembly;
+
+
 
 namespace Acess_Modifiers_Demo
 {

@@ -17,7 +17,7 @@ Você pode testar o projeto usando o [[**.NET Fiddle**](https://dotnetfiddle.net
 
 ## Imagem do Resultado
 
-![Resultado](ResultadoAccessModifiersDemo.png)
+![alt text](https://github.com/elizeubh2006/Acess-Modifiers-Demo/blob/master/ResultadoAccessModifiersDemo.PNG?raw=true)
 
 ## Sugestões de Melhorias
 

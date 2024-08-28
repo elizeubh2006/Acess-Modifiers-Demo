@@ -21,11 +21,7 @@ Você pode testar o projeto usando o [[**.NET Fiddle**](https://dotnetfiddle.net
 
 ## Sugestões de Melhorias
 
-•  Adicionar mais exemplos de modificadores de acesso, como `protected internal` e `private protected`.
-
-•  Incluir testes unitários para verificar o comportamento dos modificadores de acesso.
-
-•  Criar uma documentação mais detalhada sobre cada modificador de acesso e seus usos.
+•  Sugestões serão sempre bem-vindas. 
 
 
 ## Licença
